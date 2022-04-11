@@ -1,0 +1,70 @@
+
+body{
+    background:rgba(82, 49, 30, 0.6)url(imgs/pq.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: bold;
+    background-blend-mode:darken; 
+   
+}
+form{
+    border-radius: 10px;
+    color: rgb(245, 244, 247);
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 28px;
+    background-color: rgba(175, 135, 103, 0.4);
+}
+input{
+   
+    padding: 7px;
+}
+input:focus{
+ background-color: rgb(221, 193, 142);
+ outline-color: bisque ;
+ 
+}
+textarea:focus{
+    background-color: rgb(221, 193, 142);
+ outline-color: bisque ;
+}
+select:focus{
+    background-color: rgb(221, 193, 142);
+ outline-color: bisque ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 10px 50px;
+    background-image:linear-gradient(45deg,rgb(77, 5, 49),rgb(236, 78, 210));
+   
+    border: 2px solid  rgba(64, 10, 114, 0.6);
+    border-radius: 15px;
+}
+.name,.dep{
+    margin-left: 45px;
+}
+.gen,.area{
+    margin-left: 56px;
+}
+.dob{
+margin-left: 47px;
+}
+.em{
+    margin-left: 70px;
+}
+.mob{
+    margin-left: 54px;
+}
+.pass{
+    margin-left: 40px;
+}
+small{
+    font-size: 14px;
+}
+
