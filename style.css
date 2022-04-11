@@ -9,18 +9,28 @@ body{
     background-blend-mode:darken; 
    
 }
-form{
+.form{
     border-radius: 10px;
     color: rgb(245, 244, 247);
-    width: 550px;
-    margin: 0 auto;
-    margin-top: 20px;
+    width: 700px;
+
     padding: 28px;
+    
+   
+    margin: 0 auto;
+    margin-top: 25px;
     background-color: rgba(175, 135, 103, 0.4);
 }
-input{
+.form-control{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.form-control input{
    
     padding: 7px;
+
+    
 }
 input:focus{
  background-color: rgb(221, 193, 142);
@@ -46,25 +56,75 @@ button{
     border: 2px solid  rgba(64, 10, 114, 0.6);
     border-radius: 15px;
 }
-.name,.dep{
-    margin-left: 45px;
+.name{
+    margin-left: 70px;
+    margin-bottom: 8px;
 }
-.gen,.area{
-    margin-left: 56px;
+.date{
+    margin-left: 73px;
+    padding: 6px 35px;
+    margin-bottom: 8px;
 }
-.dob{
-margin-left: 47px;
+.gender{
+    margin-left: 85px;
+    margin-bottom: 8px;
+}
+.dept{
+    margin-left: 64px;
+    padding: 8px 52px;
+    margin-bottom: 8px;
+}
+.area{
+    margin-left: 95px;
+    margin-bottom: 8px;
 }
 .em{
-    margin-left: 70px;
+    margin-left: 111px;
+    pad: 0px 7px;
+    margin-bottom: 8px;
 }
 .mob{
-    margin-left: 54px;
+    margin-left: 100px;
+    margin-bottom: 8px;
 }
 .pass{
-    margin-left: 40px;
+    margin-left: 84px;
+    margin-bottom: 8px;
 }
-small{
-    font-size: 14px;
+.re-pass{
+    margin-left: 19px;
+    margin-bottom: 8px;
+}
+.form-control i{
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    visibility: hidden;
+    
+   
+}
+.form-control small{
+    color: #e74c3c;
+	position: absolute;
+	top: 35px;
+	left: 175px;
+    visibility: hidden;
+}
+.form-control.success input{
+    border: 3px solid #2ecc71;;
+    
+}
+.form-control.error input{
+    border:3px solid #e74c3c;
+
+    
+}
+.form-control.success i.cir{
+	color: #2ecc71;
+	visibility: visible;
+}
+.form-control.error i.exc{
+	color: #e74c3c;
+	visibility: visible;
 }
 

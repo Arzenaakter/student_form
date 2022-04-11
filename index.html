@@ -8,82 +8,88 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
 </head>
 <body>
     
-    <form action="">
+    <form action="" class="form" id="form">
         <fieldset>
             <legend>Register Now</legend>
           
-           <p> <label for="fname">First Name:
+           <div class="form-control success"> <label for="fname">First Name:
                  <input type="text" class="name" name="fname" placeholder="First Name" id="fname" ></label>
-                 <i class="fa fa-check-circle"></i>
+                 <i class="fa fa-check-circle cir" ></i>
                  <i class="fa fa-exclamation-circle"></i>
-                 <small>Please enter your first name</small>
-           </p>
+                 <small> Enter first name</small>
+           </div>
 
-           <p> <label for="lname">Last Name:
+           <div class="form-control"> 
+               <label for="lname">Last Name:
                 <input type="text" class="name" name="lname" placeholder="Last Name" id="lname"></label>
                 <i class="fa fa-check-circle"></i>
                  <i class="fa fa-exclamation-circle"></i>
-                 <small>Please enter your last name</small>
-           </p>
+                 <small>Enter last name</small>
+               </div>
         
-          <p>  
-              <label for="dob">Birth Date:  <input type="date" name="date" class="dob" id="dob"></label>
-          </p>
+          <div class="form-control">  
+              <label for="dob">Birth Date:  
+                  <input type="date" name="date" class="date" id="dob"></label>
+          </div>
            
-           <p> 
+           <div class="form-control"> 
                <label for="gender">Gender :
-              <input type="radio" name="gender" value="male" class="gen"> Male
+              <input type="radio" name="gender" value="male" class="gender"> Male
               <input type="radio" name="gender" value="female"> Female
               <input type="radio" name="gender" value="other"> Other </label>
-          </p>
+           </div>
 
-          <p>  <label for="dep">Department:
-               <select name="dep" class="dep">  
+          <div class="form-control">  <label for="dep">Department:
+               <select name="dep" class="dept">  
                     <option value="">CSE</option>
                     <option value="">EEE</option>
                     <option value="">BBA</option>
                     <option value="">ENGLISH</option>
                </select></label>
-          </p>
+          </div>
 
-            <p>
+            <div class="form-control">
                 <label for="adress"> Address:
-                <textarea name="comment" cols="23" rows="2" class="area" id="adress"></textarea> </label>
-            </p>
-            <p>
+                <textarea name="comment" cols="22" rows="2" class="area" id="adress" placeholder="Enter your address"></textarea> </label>
+            </div>
+            <div class="form-control error">
                 <label for="email">Email:
                 <input type="email" name="email" class="em" id="email"></label>
                 <i class="fa fa-check-circle"></i>
-                 <i class="fa fa-exclamation-circle"></i>
-                 <small>Enter your email address</small>
-            </p>
+                 <i class="fa fa-exclamation-circle exc"></i>
+                 <small>Enter email address</small>
+            </div>
 
-           <p> <label for="tel">Mobile :
+           <div class="form-control"> <label for="tel">Mobile :
             <input type="tel" name="phone" class="mob" id="tel"></label>
                  <i class="fa fa-check-circle"></i>
                  <i class="fa fa-exclamation-circle"></i>
-                 <small>Enter your mobile number</small>
-        </p>
+                 <small>Enter mobile number</small>
+           </div>
             
-            <p><label for="password">Password:
+            <div class="form-control">
+                <label for="password">Password:
                 <input type="password" class="pass" id="password"></label>
                 <i class="fa fa-check-circle"></i>
                  <i class="fa fa-exclamation-circle"></i>
                  <small>Enter passsword</small>
-            </p>
-            <p><label for="password">ConfirmPassword:
-                <input type="password" class="pass" id="password"></label>
+            </div>
+            <div class="form-control">
+                <label for="password">ConfirmPassword:
+                <input type="password" class="re-pass" id="password"></label>
                 <i class="fa fa-check-circle"></i>
                  <i class="fa fa-exclamation-circle"></i>
                  <small>Re-enter password</small>
-            </p>
+            </div>
 
            
-           <p> <label for="check">  <input type="checkbox" name="" id="check">I Agree with terms & condition</label>
-        </p>
+           <div class="form-control"> 
+               <label for="check">  <input type="checkbox" name="" id="check">I Agree with terms & condition</label>
+           </div>
            <button><a target="_blank" href="sucess.html">Submit</a> </button>
             
         </fieldset>
